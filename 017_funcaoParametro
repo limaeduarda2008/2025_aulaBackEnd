@@ -1,0 +1,20 @@
+// Declaração da função com 3 parâmetros
+function saudacaoClientes(nome1, nome2, nome3) {
+    // Cria uma mensagem para o primeiro cliente
+    let mensagem1 = "Olá " + nome1 + ", seja bem-vindo(a)!";
+    
+    // Cria uma mensagem para o segundo cliente
+    let mensagem2 = "Olá " + nome2 + ", seja bem-vindo(a)!";
+    
+    // Cria uma mensagem para o terceiro cliente
+    let mensagem3 = "Olá " + nome3 + ", seja bem-vindo(a)!";
+    
+    // Exibe as mensagens
+    console.log(mensagem1);
+    console.log(mensagem2);
+    console.log(mensagem3);
+}
+
+// Chamada da função passando os parâmetros
+saudacaoClientes("Carlos", "Mariana", "Fernanda");
+
